@@ -83,13 +83,6 @@ Built with **LangChain, Groq LLMs, HuggingFace embeddings, ChromaDB, and Streaml
 3. Ask questions in the chatbox.
 4. Get **context-aware answers** directly from the articles.
 
----
-
-## 📸 Demo Preview
-
-(👉 Add screenshot/GIF of your chatbot UI here)
-
----
 
 ## 🤝 Contributing
 
@@ -107,3 +100,4 @@ This project is licensed under the **MIT License**.
 ✨ Built with ❤️ using **LangChain, Groq, and Streamlit**
 Noor Alam 
 (AI/ML Engineer)
+

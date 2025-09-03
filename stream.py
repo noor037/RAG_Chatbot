@@ -16,7 +16,7 @@ GROQ_MODEL = "llama-3.3-70b-versatile"  # Or any other Llama model available on 
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 
-# key = "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"
+# key = "na....."
 
 # Initialize session state
 if "articles" not in st.session_state:
@@ -146,4 +146,5 @@ if prompt := st.chat_input("Ask a question about the articles..."):
                 except Exception as e:
                     response = f"Error: {str(e)}"
         st.markdown(response)
+
     st.session_state.messages.append({"role": "assistant", "content": response})
